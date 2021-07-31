@@ -1,0 +1,46 @@
+<html>
+    <head>
+       <title>My Selfie App Part 1</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <h1>Voice Selfie App 
+
+        </h1>
+        <hr>
+        <h4 style="color:rgb(0, 255, 128);">Hope you like it</h4>
+        
+        <div class="form-group">
+            <h3>Say TAKEE MYY SELLFFIIEE</h3>
+            <label>Your voice output : </label>
+            <textarea id="textbox" class="form-control"></textarea>
+
+        </div>
+
+        <p>Start button</p>
+        <button id="start" onclick="Start()" class="btn btn-info">Start</button>
+        <br>
+
+        <label>Your webcam</label>
+        <div id="camera"></div>
+
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <div id="result"></div>
+
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
